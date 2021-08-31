@@ -1,6 +1,6 @@
 package gui;
 
-import java.awt.BorderLayout;
+
 
 import java.awt.Dimension;
 
@@ -16,14 +16,14 @@ import java.awt.Image;
 import java.awt.Toolkit;
 
 import javax.swing.JTextField;
-import javax.swing.Icon;
+
 import javax.swing.ImageIcon;
-import javax.swing.SwingConstants;
+
 
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
-import java.time.format.FormatStyle;
+
 
 @SuppressWarnings("serial")
 public class SimplePresentationScreen extends JFrame {

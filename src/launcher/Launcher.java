@@ -16,7 +16,7 @@ public class Launcher {
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
             	try {
-            		Student studentData = new Student(125925,"Adrover","Ramiro","ramadrover@gmail.com","https://github.com/RamiroAdrover/tdp-proyecto-1","/images/photo.png");
+            		Student studentData = new Student(125925,"Adrover","Ramiro","ramadrover@gmail.com","https://github.com/RamiroAdrover","/images/photo.png");
                     SimplePresentationScreen frame = new SimplePresentationScreen(studentData);
                     frame.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/images/tdp.png")));
                     frame.setVisible(true);
